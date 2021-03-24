@@ -66,6 +66,9 @@ class BlogListView extends StatelessWidget {
                           Text('${blog.title}'),
                         ],
                       ),
+                      trailing: Icon(
+                        Icons.chevron_right_outlined,
+                      ),
                     ),
                   );
                 },
